@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build files
+build/
+dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Generated results
+results/*
+!results/.gitkeep
